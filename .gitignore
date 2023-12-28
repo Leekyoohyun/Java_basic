@@ -27,3 +27,6 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+/src/Chap_01/
+/src/Chap_02/
+/src/Chap_03/
