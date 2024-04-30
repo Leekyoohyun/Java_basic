@@ -24,6 +24,28 @@ public class ArraysStudy {
         System.out.print("배열 생성 후 저장: ");
         System.out.println(score1[3]+score1[1]);
 
+        String[] classGroup = {"최진혁", "이규현", "고유림", "송현진", "최동현", "김동은"};
+        System.out.println(classGroup[0]);
+        System.out.println(classGroup[1]);
+        System.out.println(classGroup[2]);
+        System.out.println(classGroup[3]);
+        System.out.println(classGroup[4]);
+        System.out.println(classGroup[5]);
+
+        System.out.println();
+        // For 문으로 출력
+        for (int i=0; i<6; i++){
+            System.out.println(classGroup[i]);
+        }
+
+        // For 문으로 상담받는 학생 ex
+        for (int j=0; j<3 ; j++){
+            String member = classGroup[j];
+            System.out.println(member + " 가 상담을 받음. ");
+        }
+
+
+
 
     }
 }
